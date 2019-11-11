@@ -19,6 +19,8 @@ body{
 
 /*---------TYPOGRAPHY---------*/
 
+p {font-family: 'Open Sans', sans-serif;}
+
 h1, h2, h3{
    font-weight: normal;
    color: rgb(22, 13, 156);
@@ -49,6 +51,10 @@ blockquote {
 
 cite{
    font-size: 1em;
+}
+
+header, h3{
+   font-style: italic;
 }
 
 /*---------FOOTER-------*/
