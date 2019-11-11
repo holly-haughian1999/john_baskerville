@@ -53,8 +53,12 @@ cite{
    font-size: 1em;
 }
 
-header, h3{
+header h3{
    font-style: italic;
+}
+
+header p{
+   font-size: 1.414em;
 }
 
 /*---------FOOTER-------*/
