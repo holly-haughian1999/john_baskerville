@@ -7,8 +7,13 @@
    line-height: 1em;
 }
 /*-----STYLE LINKS-----*/
+
+#nav{
+    color: #fcfcfc;
+    text-decoration: none;
+}
 a{
-    color: #fafafa;
+    color: #0905e0;
     text-decoration: none;
 }
 
