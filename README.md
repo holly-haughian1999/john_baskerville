@@ -27,7 +27,7 @@ Added flexbox and media queries to the project.
 # Type History
 [Version 1](https://holly-haughian1999.github.io/john_baskerville/HistoryofType.html)
 *October 28th 2019*\
-Created my first History of Tyoe HTML document in a plain text file.
+Created my first History of Type HTML document in a plain text file.
 
 [Version 2](https://holly-haughian1999.github.io/john_baskerville/HistoryofType2.html)
 *November 4th 2019*\
