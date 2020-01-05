@@ -68,3 +68,25 @@ footer{
    font-size: 0.8em;
    padding: 2em 0 4em 0;
 }
+
+/*----LIST STYLING-----*/
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 1em 0;
+}
+
+ul li {
+   margin: 10px;
+   }
+
+.list-indent {
+   margin-left: 2em;}
+
+.list-head {
+   font-family:'Open Sans', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;}
+
+   .red {background: orangered}
