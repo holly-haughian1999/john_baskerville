@@ -7,6 +7,24 @@
     line-height: 1em;
     scroll-behavior: smooth;
 }
+
+
+
+/*---------- MAIN STYLING ----------*/
+body {
+    width: 80%;
+    max-width: 760px;
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {margin-bottom: 5em} 
+
+header{margin-bottom: 5em;}
+
+
 /*-----STYLE LINKS-----*/
 
 #nav{
@@ -14,9 +32,13 @@
     text-decoration: none;
 }
 a{
-    color: #0905e0;
+    color: #ffffff;
     text-decoration: none;
 }
+.anchor{
+    color: rgb(45, 45, 109);
+}
+
 
 /*-----NAV------*/
 nav{
@@ -47,24 +69,8 @@ nav a:link{
 
 nav a:hover{
     border-bottom: none;
-    color: #c5f370;
+    color: #7e95fc;
 }
-
-
-/*---------- MAIN STYLING ----------*/
-body {
-    width: 80%;
-    max-width: 760px;
-    margin: auto;
-    background: #fafafa;
-    color: #333;
-    font-family: 'Libre Baskerville', serif;
-}
-
-header {margin-bottom: 5em} 
-
-header{margin-bottom: 5em;}
-
 /*----------------- ADDING FLEXBOX ------------------*/
     
 article {

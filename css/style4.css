@@ -7,8 +7,6 @@
    line-height: 1em;
 }
 
-
-
 /*---------MAIN STYLING------*/
 body{
    width: 80%;
@@ -17,15 +15,6 @@ body{
    background: #fafafa;
    color: #333;
    font-family: 'Libre Baskerville', serif;
-}
-
-/*-----IMAGES------*/
-
-img{
-    display: block;
-    margin: 3em auto;
-    padding: 0;
-    max-width: 100%;
 }
 
 /*---------TYPOGRAPHY---------*/
@@ -72,34 +61,6 @@ header p{
    font-size: 1.414em;
 }
 
-/*----TABLE-----*/
-table {
-    margin: auto;
-    display: table;
-    border-collapse: collapse;
-    border-spacing: 2px;
-    margin-bottom: 2em;
-    width: 100%;
-}
-caption{
-    margin-bottom: 1.5em;
-    text-transform: uppercase;
-}
-th{
-    color: cornsilk;
-    text-transform: uppercase;
-    font-weight: normal;
-    text-align: left;
-    background: lightseagreen;
-}
-th, td{
-    padding: .6em;
-}
-table, td{
-    background: navajowhite;
-    border: 1px solid #fafafa;
-}
-
 /*---------FOOTER-------*/
 
 footer{
@@ -108,7 +69,29 @@ footer{
    padding: 2em 0 4em 0;
 }
 
-/*-----NAV------*/
+/*----LIST STYLING-----*/
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 1em 0;
+}
+
+ul li {
+   margin: 10px;
+   }
+
+.list-indent {
+   margin-left: 2em;}
+
+.list-head {
+   font-family:'Open Sans', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;}
+
+   .red {background: orangered}
+
+  /*-----NAV------*/
 nav{
     position: fixed;
     top: 0;
@@ -118,6 +101,7 @@ nav{
     background-color: darkslateblue;
     padding: 1em 0;
     font-size: 0.80em;
+    color: #fafafa;
 }
 
 nav ul{
@@ -139,6 +123,7 @@ nav a:hover{
     border-bottom: none;
     color: #7e95fc;
 }
+
 /*-----STYLE LINKS-----*/
 
 #nav{
@@ -146,6 +131,6 @@ nav a:hover{
     text-decoration: none;
 }
 a{
-    color: #fcfcfc;
+    color: #ffffff;
     text-decoration: none;
 }
