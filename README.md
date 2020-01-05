@@ -34,9 +34,9 @@ Added flexbox and media queries to the project.
 [Version 3](https://holly-haughian1999.github.io/john_baskerville/historyoftype3.html)
 *November 10th 2019*
 
-[Version 4](https://holly-haughian1999.github.io/john_baskerville/HistoryofType4.html)
+[Version 4](https://holly-haughian1999.github.io/john_baskerville/historyoftype4.html)
 *November 10th 2019*
 
-[Version 5](https://holly-haughian1999.github.io/john_baskerville/HistoryofType5.html)
+[Version 5](https://holly-haughian1999.github.io/john_baskerville/historyoftype5.html)
 *November 10th 2019*
 
