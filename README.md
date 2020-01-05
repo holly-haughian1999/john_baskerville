@@ -1,7 +1,7 @@
 # John Baskerville
 
 [Version 1](https://holly-haughian1999.github.io/john_baskerville/baskerville.html)
-*October 28th 2019*
+*October 28th 2019*\
 Created first HTML5 file is a plain text file.
 
 [Version 2](https://holly-haughian1999.github.io/john_baskerville/baskerville2.html)
