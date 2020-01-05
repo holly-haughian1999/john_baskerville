@@ -1,10 +1,11 @@
-/*---------- CSS Reset ---------*/
+/*-------- CSS Reset ------*/
 
 *{
-   padding:0;
-   margin: 0;
-   font-size: 100%;
-   line-height: 1em;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    scroll-behavior: smooth;
 }
 /*-----STYLE LINKS-----*/
 
@@ -49,35 +50,35 @@ nav a:hover{
     color: #c5f370;
 }
 
-/*---------MAIN STYLING------*/
-body{
-   width: 80%;
-   max-width: 670px;
-   margin: auto;
-   background: #fafafa;
-   color: #333;
-   font-family: 'Libre Baskerville', serif;
+
+/*---------- MAIN STYLING ----------*/
+body {
+    width: 80%;
+    max-width: 760px;
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
 }
+
+header {margin-bottom: 5em} 
 
 header{margin-bottom: 5em;}
 
-/*----ADDING FLEXBOX----*/
-article{
-    display: flex;
-}
-
-.main{
-    flex: 3;
-    padding-right: 1em;
-}
+/*----------------- ADDING FLEXBOX ------------------*/
+    
+article {
+    display: flex;} 
    
-aside{
-    flex: 1;
-    font-size: 0.75em;
-    font-style: italic;
-    border-left: 1px solid #c06;
-    padding-left: 1em;
-}
+   
+.main{ flex: 3;
+    padding-right: 1em }
+   
+aside { flex: 1;  
+        font-size: 0.75em;
+        font-style: italic; 
+        border-left: 1px solid rgb(95, 0, 204);
+        padding-left: 1em}
 
 /*-----IMAGES------*/
 
@@ -199,61 +200,63 @@ footer{
   display: inline-block;
 }
 
-/*---MEDIA QUERIES----*/
 
-/*---TABLET---*/
-@media (max-width 50em) {
-    body{
+/* ----- MEDIA QUERIES -------*/
+
+
+/*-------- TABLET ----------*/
+
+@media (max-width: 50em) { 
+    body {
         width: 100%;
     }
-    header p, article{
-        width: 95%;
-        padding: 0.5em;
-    }
-    article{
-        flex-flow: column;
-        flex-direction: column;
-    }
-    section{
-        width: 90%;
-    }
-    .aside {
-        border-left: none;
+     
+header p, article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+article { flex-flow: column;
+          flex-direction: column;}
+     
+section { width: 90%}
+    
+.aside {border-left: none;
         margin: 0;
         padding-left: 1em;
-        font-size: 1.2em;
+    font-size: 1.2em}    
+} 
+
+/*----- SMARTPHONE ------- */
+ @media (max-width: 30em) {
+   body {
+    margin: auto 0;
+    width: 95%;
+    font-size: 135%; 
     }
-}
-/*--------SMARTPHONE------*/
-@media (max-width: 30em) {
-    body {
-     margin: auto 0;
-     width: 95%;
-     font-size: 120%; 
-     }
+
+     
+nav ul li {
+    display: block;
+    margin: 20px; }
+     
+table {font-size: 90%}
+     
+article {
+    width: 90%;
+    } 
+
+h1 {font-size: 2em;
+     line-height: 1.3}   
+blockquote { font-size: 1.25em;
+         padding: 0;
+         line-height: 1.6em}  
+     
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
+     
+     img {display: none}
  
-      
- nav ul li {
-     display: block;
-     margin: 25px; }
-      
- table {font-size: 95%}
-      
- article {
-     width: 90%;
-     } 
- 
- h1 {font-size: 2em;
-      line-height: 1.3}   
- blockquote { font-size: 1.25em;
-          padding: 0;
-          line-height: 1.6em}  
-      
- hgroup h2 {font-size: 1.5em;
- padding-top: 0.5em}  
-      
- nav ul li {font-size: .75em;
-         margin: 10px}
-      
-      img {display: none}
- }
